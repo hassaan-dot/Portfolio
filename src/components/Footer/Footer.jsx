@@ -43,15 +43,15 @@ const Footer = () => {
           {[
             {
               icon: <FaFacebook />,
-              link: "https://www.facebook.com/aaku.aakash.752",
+              // link: "https://www.facebook.com/aaku.aakash.752",
             },
             {
               icon: <FaLinkedin />,
-              link: "https://www.linkedin.com/in/aakash-karki-701386327/",
+              // link: "https://www.linkedin.com/in/aakash-karki-701386327/",
             },
             {
               icon: <FaInstagram />,
-              link: "https://www.instagram.com/aakash_karkey/",
+              // link: "https://www.instagram.com/aakash_karkey/",
             },
             { icon: <FaGithub />, link: "https://github.com/hassaan-dot" },
           ].map((item, index) => (
