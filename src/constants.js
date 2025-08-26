@@ -3,11 +3,12 @@ import htmlLogo from "./assets/tech_logo/html.png";
 import cssLogo from "./assets/tech_logo/css.png";
 import javascriptLogo from "./assets/tech_logo/javascript.png";
 import reactjsLogo from "./assets/tech_logo/reactjs.png";
-import angularLogo from "./assets/tech_logo/angular.png";
+import angularLogo from "./assets/tech_logo/AngularIcons.png";
 import reduxLogo from "./assets/tech_logo/redux.png";
 import nextjsLogo from "./assets/tech_logo/nextjs.png";
 import tailwindcssLogo from "./assets/tech_logo/tailwindcss.png";
 import reactnativeLogo from "./assets/tech_logo/reactnative.png"; // ✅ Fixed name
+
 import materialuiLogo from "./assets/tech_logo/materialui.png";
 import bootstrapLogo from "./assets/tech_logo/bootstrap.png";
 import nodejsLogo from "./assets/tech_logo/nodejs.png";
@@ -19,6 +20,7 @@ import cLogo from "./assets/tech_logo/c.png";
 import cppLogo from "./assets/tech_logo/cpp.png";
 import javaLogo from "./assets/tech_logo/java.png";
 import pythonLogo from "./assets/tech_logo/python.png";
+// import AngularIcon from "../assets/tech_logo/AngularIcons";
 import typescriptLogo from "./assets/tech_logo/typescript.png";
 import gitLogo from "./assets/tech_logo/git.png";
 import githubLogo from "./assets/tech_logo/github.png";
@@ -72,6 +74,7 @@ export const SkillsInfo = [
       { name: "Next JS", logo: nextjsLogo },
       { name: "Tailwind CSS", logo: tailwindcssLogo },
       { name: "React Native", logo: reactnativeLogo },
+      { name: "Angular", logo: angularLogo },
     ],
   },
   {
@@ -117,11 +120,12 @@ export const experiences = [
     img: granjur,
     role: "Nobel Intern",
     company: "Granjur Technology",
-    date: "Aug 2024 - Aug 2025",
+    date: "Aug 2024 - dec 2025",
     desc: "Participating in the Nobel Internship Program focused on developing leadership, communication, and project management skills. Engaging in workshops on web design, digital marketing, and teamwork to build well-rounded professional capabilities. Collaborating with peers to design impactful community projects while enhancing problem-solving and creative thinking abilities.",
     skills: [
       "Leadership",
-      "Web Design",
+      "Mobile Design",
+      "Redux",
       "Communication",
       "Project Management",
       "Pitch and Presentation",
@@ -134,14 +138,14 @@ export const experiences = [
     img: freelancer,
     role: "Full Stack Developer",
     date: "Nov 2024 - Present",
-    desc: "Founded and built CozyWears, a modern clothing brand focused on premium streetwear and comfort. Managed branding, web development, and social media strategy.",
+    desc: "Working as a freelance developer on diverse client projects, delivering full-stack solutions with a focus on responsive design, performance, and user-friendly experiences.",
     skills: [
-      "Entrepreneurship",
-      "Branding",
-      "E-commerce",
+      "Full Stack Development",
       "React",
+      "Node.js",
+      "MongoDB",
       "Tailwind",
-      "Marketing",
+      "REST APIs",
     ],
   },
   {
@@ -150,18 +154,17 @@ export const experiences = [
     img: upwork,
     role: "Frontend Developer",
     date: "Nov 2024 - Present",
-    desc: "Founded and built CozyWears, a modern clothing brand focused on premium streetwear and comfort. Managed branding, web development, and social media strategy.",
+    desc: "Collaborating with clients on freelance projects to build responsive, high-performance web applications. Focused on creating modern UI/UX with clean, maintainable code.",
     skills: [
-      "Entrepreneurship",
-      "Branding",
-      "E-commerce",
+      "Frontend Development",
       "React",
-      "Tailwind",
-      "Marketing",
+      "JavaScript",
+      "Tailwind CSS",
+      "UI/UX",
+      "Responsive Design",
     ],
   },
 ];
-
 export const education = [
   {
     id: 0,
@@ -201,40 +204,40 @@ export const projects = [
     id: 0,
     title: "ChatBot App - iGuide",
     description:
-      "A MERN stack web application that allows users to find and book local travel guides. Features include user authentication, guide profiles, booking management, and real-time chat to enhance travel planning.",
+      "A Python-based chatbot built using Streamlit and Groq API on Groq Cloud. Designed to provide interactive responses with a simple, user-friendly web interface.",
     image: chatbotApp,
-    tags: ["MongoDB", "Express.js", "React JS", "Node.js", "REST API"],
-    github: "https://github.com/yourgithubusername/iguide",
+    tags: ["Python", "Streamlit", "Groq API", "Groq Cloud"],
+    github: "https://github.com/yourgithubusername/chatbot-iguide",
     webapp: "https://iguide.yourdomain.com",
   },
   {
     id: 1,
-    title: "GatherGram - Dating App",
+    title: "GatherGram - CLI Project",
     description:
-      "A React Native mobile app that helps users search and discover recipes based on ingredients, cuisine, and dietary preferences. Uses PostgreSQL as backend database and features offline caching and user favorites.",
+      "A command-line interface project focusing on frontend-only logic. Built to demonstrate structured UI flow and interaction patterns in a non-GUI environment.",
     image: GatherGram,
-    tags: ["React Native", "PostgreSQL", "REST API", "Expo"],
-    github: "https://github.com/yourgithubusername/khana-khajana",
+    tags: ["JavaScript", "CLI", "Frontend Logic"],
+    github: "https://github.com/yourgithubusername/gathergram",
     webapp: "",
   },
   {
     id: 2,
-    title: "Student Portal - Portal Management System",
+    title: "Student Portal - Internship Project",
     description:
-      "A comprehensive hotel management system built with Java. Manages room bookings, billing, and staff workflows with a user-friendly interface.",
+      "Developed as part of my internship, this portal manages student information, courses, and grades. Gained hands-on experience with database integration and role-based authentication.",
     image: CmsPortal,
-    tags: ["Java", "MySQL", "Swing", "OOP"],
-    github: "https://github.com/yourgithubusername/hotel-management-system",
+    tags: ["Java", "MySQL", "Spring Boot", "Internship Project"],
+    github: "https://github.com/yourgithubusername/student-portal",
     webapp: "",
   },
   {
     id: 3,
     title: "Text to Handwritten Converter",
     description:
-      "An embedded system project using microcontrollers to control Up-Down counting mechanisms for industrial applications. Implemented using C and interfaced with LCD for real-time display.",
+      "A unique project that converts typed digital text into realistic handwritten-style notes. Inspired by scenarios where students often try to make typed work look handwritten.",
     image: textToHandwritten,
-    tags: ["C", "Microcontroller", "Embedded Systems"],
-    github: "https://github.com/yourgithubusername/ud-down-controller",
+    tags: ["JavaScript", "React Native", "API", "CSS"],
+    github: "https://github.com/yourgithubusername/text-to-handwritten",
     webapp: "",
   },
 ];

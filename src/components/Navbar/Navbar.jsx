@@ -63,7 +63,6 @@ const Navbar = () => {
           ))}
         </ul>
 
-        {/* Social Icons */}
         <div className="hidden md:flex space-x-4">
           <a
             href="https://github.com/hassaan-dot"
