@@ -52,6 +52,7 @@ import img2 from "./assets/project_logo/2.png";
 import img3 from "./assets/project_logo/3.png";
 import img4 from "./assets/project_logo/4.png";
 import chatbotApp from "./assets/project_logo/chatbotApp.png";
+import Wechat from "./assets/project_logo/Wechat.png";
 import CmsPortal from "./assets/project_logo/CmsPortal.png";
 import GatherGram from "./assets/project_logo/GatherGram.png";
 import textToHandwritten from "./assets/project_logo/textToHandwritten.png";
@@ -209,6 +210,16 @@ export const projects = [
     tags: ["Python", "Streamlit", "Groq API", "Groq Cloud"],
     github: "https://github.com/yourgithubusername/chatbot-iguide",
     webapp: "https://iguide.yourdomain.com",
+  },
+  {
+    id: 8,
+    title: "Chatting App - Full stack",
+    description:
+      "A real-time communication platform built with Reactnative and Firebase. Features include user authentication, instant messaging, and media sharing in a sleek, responsive design.Push notifications implemented for message alerts.",
+    image: Wechat,
+    tags: ["React-Native", "Fiebase", "Google Services", "Figma"],
+    // github: "https://github.com/yourgithubusername/chatbot-iguide",
+    // webapp: "https://iguide.yourdomain.com",
   },
   {
     id: 1,
