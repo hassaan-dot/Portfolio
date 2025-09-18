@@ -115,7 +115,7 @@ const Navbar = () => {
             ))}
             <div className="flex space-x-4 mt-2">
               <a
-                href="https://github.com/AakashKarkey"
+                href="https://github.com/hassaan-dot"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-gray-300 hover:text-white"
@@ -123,7 +123,7 @@ const Navbar = () => {
                 <FaGithub size={22} />
               </a>
               <a
-                href="https://www.linkedin.com/in/aakash-karki-701386327/"
+                // href="https://www.linkedin.com/in/aakash-karki-701386327/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-gray-300 hover:text-white"
