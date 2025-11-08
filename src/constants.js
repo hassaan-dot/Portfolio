@@ -56,6 +56,7 @@ import Wechat from "./assets/project_logo/Wechat.png";
 import CmsPortal from "./assets/project_logo/CmsPortal.png";
 import GatherGram from "./assets/project_logo/GatherGram.png";
 import textToHandwritten from "./assets/project_logo/textToHandwritten.png";
+import racingApp from "./assets/project_logo/RacingApp.png";
 
 //Achievements Section Logo's
 import ach1 from "./assets/achievements_logo/1.png";
@@ -202,7 +203,7 @@ export const education = [
 
 export const projects = [
   {
-    id: 0,
+    id: 1,
     title: "ChatBot App - iGuide",
     description:
       "A Python-based chatbot built using Streamlit and Groq API on Groq Cloud. Designed to provide interactive responses with a simple, user-friendly web interface.",
@@ -211,8 +212,9 @@ export const projects = [
     github: "https://github.com/yourgithubusername/chatbot-iguide",
     webapp: "https://iguide.yourdomain.com",
   },
+
   {
-    id: 8,
+    id: 2,
     title: "Chatting App - Full stack",
     description:
       "A real-time communication platform built with Reactnative and Firebase. Features include user authentication, instant messaging, and media sharing in a sleek, responsive design.Push notifications implemented for message alerts.",
@@ -220,6 +222,17 @@ export const projects = [
     tags: ["React-Native", "Fiebase", "Google Services", "Figma"],
     // github: "https://github.com/yourgithubusername/chatbot-iguide",
     // webapp: "https://iguide.yourdomain.com",
+  },
+
+  {
+    id: 3,
+    title: "Racing WebApp - Full stack",
+    description:
+      "DB-driven Website with Api sync for racing events. Features user registration, event scheduling, and live updates. Built with React for frontend and Node.js for backend.",
+    image: racingApp,
+    tags: ["React", "Node.js", "API", "PostgreSQL"],
+    github: "https://github.com/hassaan-dot/raceApps",
+    webapp: "http://157.230.96.126:5173/",
   },
   {
     id: 1,
