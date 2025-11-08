@@ -38,16 +38,15 @@ const Footer = () => {
           ))}
         </nav>
 
-        {/* Social Media Icons - Responsive */}
         <div className="flex flex-wrap justify-center space-x-4 mt-6">
           {[
             {
               icon: <FaFacebook />,
-              // link: "https://www.facebook.com/aaku.aakash.752",
+              link: "https://www.facebook.com/share/1A49iAWH8r/?mibextid=wwXIfr",
             },
             {
               icon: <FaLinkedin />,
-              // link: "https://www.linkedin.com/in/aakash-karki-701386327/",
+              link: "https://www.linkedin.com/in/hassaan-khawaja-744a69293/",
             },
             {
               icon: <FaInstagram />,

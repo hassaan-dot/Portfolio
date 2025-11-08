@@ -123,7 +123,7 @@ const Navbar = () => {
                 <FaGithub size={22} />
               </a>
               <a
-                // href="https://www.linkedin.com/in/aakash-karki-701386327/"
+                href="https://www.linkedin.com/in/hassaan-khawaja-744a69293/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-gray-300 hover:text-white"

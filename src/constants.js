@@ -37,7 +37,7 @@ import ucp from "./assets/education_logo/ucp.png";
 // Experience Section Logo's
 import newtonschoolLogo from "./assets/company_logo/newtonschool_logo.png";
 import cozywearsLogo from "./assets/company_logo/cozy.png";
-import granjur from "./assets/company_logo/granjur.png";
+// import granjur from "./assets/company_logo/granjur.png";
 import freelancer from "./assets/company_logo/freelancer.png";
 import upwork from "./assets/company_logo/upwork.png";
 
@@ -118,7 +118,7 @@ export const SkillsInfo = [
 export const experiences = [
   {
     id: 0,
-    img: granjur,
+    img: "granjur",
     role: "Nobel Intern",
     company: "Granjur Technology",
     date: "Aug 2024 - dec 2025",
