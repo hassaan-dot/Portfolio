@@ -38,8 +38,8 @@ const About = () => {
           </p>
 
           <a
-            href="/cv.pdf"
-            download="HASSAAN KHAWAJA Updated.pdf"
+            href="/HASSAAN_KHAWAJA.pdf"
+            download="HASSAAN_KHAWAJA.pdf"
             className="inline-block text-white py-3 px-8 rounded-full mt-5 text-lg font-bold transition duration-300 transform hover:scale-105"
             style={{
               background: "linear-gradient(90deg, #8245ec, #a855f7)",
@@ -50,7 +50,6 @@ const About = () => {
           </a>
         </div>
 
-        {/* Right Section */}
         <div className="w-full md:w-1/2 flex justify-center">
           <Tilt
             className="w-48 h-48 sm:w-64 sm:h-64 md:w-80 md:h-80 lg:w-96 lg:h-96 border-4 border-purple-700 rounded-full"
