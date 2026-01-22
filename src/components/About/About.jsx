@@ -38,8 +38,8 @@ const About = () => {
           </p>
 
           <a
-            href="/HASSAAN_KHAWAJA.pdf"
-            download="HASSAAN_KHAWAJA.pdf"
+            href="/Hassaan Khawaja.pdf"
+            download="Hassaan_Khawaja.pdf"
             className="inline-block text-white py-3 px-8 rounded-full mt-5 text-lg font-bold transition duration-300 transform hover:scale-105"
             style={{
               background: "linear-gradient(90deg, #8245ec, #a855f7)",
