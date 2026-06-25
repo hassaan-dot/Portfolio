@@ -31,15 +31,21 @@ import netlifyLogo from "./assets/tech_logo/netlify.png";
 import vercelLogo from "./assets/tech_logo/vercel.png";
 import postgreLogo from "./assets/tech_logo/postgre.png";
 import canvaLogo from "./assets/tech_logo/canva.png";
+import supabaseLogo from "./assets/tech_logo/supabase.svg";
+import nestjsLogo from "./assets/tech_logo/nestjs.svg";
+import digitaloceanLogo from "./assets/tech_logo/digitalocean.svg";
+import vpsServerLogo from "./assets/tech_logo/vps-server.svg";
+import kotlinLogo from "./assets/tech_logo/kotlin.svg";
 import lda from "./assets/education_logo/LDA-Lahore.jpg";
 import pgc from "./assets/education_logo/pgc.png";
 import ucp from "./assets/education_logo/ucp.png";
 // Experience Section Logo's
 import newtonschoolLogo from "./assets/company_logo/newtonschool_logo.png";
 import cozywearsLogo from "./assets/company_logo/cozy.png";
-// import granjur from "./assets/company_logo/granjur.png";
-import freelancer from "./assets/company_logo/freelancer.png";
-import upwork from "./assets/company_logo/upwork.png";
+import granjur from "./assets/company_logo/granjur.png";
+import ikGroup from "./assets/company_logo/ik_group.png";
+import freelancer from "./assets/company_logo/freelancer_new.png";
+import upwork from "./assets/company_logo/upwork_new.png";
 
 // Education Section Logo's
 import glaLogo from "./assets/education_logo/gla_logo.png";
@@ -57,6 +63,7 @@ import CmsPortal from "./assets/project_logo/CmsPortal.png";
 import GatherGram from "./assets/project_logo/GatherGram.png";
 import textToHandwritten from "./assets/project_logo/textToHandwritten.png";
 import racingApp from "./assets/project_logo/RacingApp.png";
+import rideXpress from "./assets/project_logo/RideXpress.png";
 
 //Achievements Section Logo's
 import ach1 from "./assets/achievements_logo/1.png";
@@ -84,21 +91,24 @@ export const SkillsInfo = [
     skills: [
       { name: "Node JS", logo: nodejsLogo },
       { name: "Express JS", logo: expressjsLogo },
+      { name: "Nest JS", logo: nestjsLogo },
       { name: "MySQL", logo: mysqlLogo },
       { name: "MongoDB", logo: mongodbLogo },
       { name: "Firebase", logo: firebaseLogo },
       { name: "PostgreSQL", logo: postgreLogo },
+      { name: "Supabase", logo: supabaseLogo },
     ],
   },
   {
     title: "Languages",
     skills: [
-      { name: "C", logo: cLogo },
-      { name: "C++", logo: cppLogo },
-      { name: "Java", logo: javaLogo },
-      { name: "Python", logo: pythonLogo },
-      { name: "JavaScript", logo: javascriptLogo },
       { name: "TypeScript", logo: typescriptLogo },
+      { name: "JavaScript", logo: javascriptLogo },
+      { name: "Python", logo: pythonLogo },
+      { name: "Java", logo: javaLogo },
+      { name: "Kotlin", logo: kotlinLogo },
+      { name: "C++", logo: cppLogo },
+      { name: "C", logo: cLogo },
     ],
   },
   {
@@ -112,6 +122,8 @@ export const SkillsInfo = [
       { name: "Netlify", logo: netlifyLogo },
       { name: "Figma", logo: figmaLogo },
       { name: "Canva", logo: canvaLogo },
+      { name: "Digital Ocean", logo: digitaloceanLogo },
+      { name: "VPS Server", logo: vpsServerLogo },
     ],
   },
 ];
@@ -119,10 +131,10 @@ export const SkillsInfo = [
 export const experiences = [
   {
     id: 0,
-    img: "granjur",
+    img: granjur,
     role: "Nobel Intern",
     company: "Granjur Technology",
-    date: "Aug 2024 - dec 2025",
+    date: "Aug 2024 - dec 2024",
     desc: "Participating in the Nobel Internship Program focused on developing leadership, communication, and project management skills. Engaging in workshops on web design, digital marketing, and teamwork to build well-rounded professional capabilities. Collaborating with peers to design impactful community projects while enhancing problem-solving and creative thinking abilities.",
     skills: [
       "Leadership",
@@ -139,31 +151,89 @@ export const experiences = [
     company: "Freelancer.com",
     img: freelancer,
     role: "Full Stack Developer",
-    date: "Nov 2024 - Present",
+    date: "Sep 2024 - Present",
     desc: "Working as a freelance developer on diverse client projects, delivering full-stack solutions with a focus on responsive design, performance, and user-friendly experiences.",
     skills: [
       "Full Stack Development",
+      "Next.js",
       "React",
+      "TypeScript",
+      "JavaScript",
       "Node.js",
+      "Express.js",
+      "MySQL",
       "MongoDB",
-      "Tailwind",
+      "Firebase",
       "REST APIs",
+      "Git",
+      "GitHub",
+      "VS Code",
+      "Postman",
+      "Vercel",
+      "Netlify",
     ],
   },
   {
     id: 2,
     company: "Upwork",
     img: upwork,
-    role: "Frontend Developer",
+    role: "Full Stack Developer",
     date: "Nov 2024 - Present",
     desc: "Collaborating with clients on freelance projects to build responsive, high-performance web applications. Focused on creating modern UI/UX with clean, maintainable code.",
     skills: [
-      "Frontend Development",
+      "Full Stack Development",
+      "Next.js",
+      "PostgreSQL",
+      "Nest.js",
+      "Express.js",
+      "MySQL",
+      "MongoDB",
+      "Firebase",
+      "REST APIs",
+      "Git",
+      "GitHub",
+      "VS Code",
+      "Postman",
+      "Vercel",
+      "Netlify",
+      "Figma",
+      "Canva",
+    ],
+  },
+  {
+    id: 3,
+    img: ikGroup,
+    role: "Software Developer",
+    company: "IK Group of companies",
+    date: "Feb 2026 - Present",
+    desc: "Building and maintaining digital products for IK Group, contributing to internal tools, web applications, and cross-team technical initiatives across affiliated ventures.",
+    skills: [
+      "Full Stack Development",
+      "Next.js",
+      "PostgreSQL",
+      "Nest.js",
+      "Express.js",
+
+      "MySQL",
+      "MongoDB",
+      "Firebase",
+      "REST APIs",
+      "API Integration",
+      "API Testing",
+      "Mobile Development",
+      "React Native",
+      "Redux",
+      "Git",
+      "GitHub",
+      "VS Code",
+      "Postman",
+      "Vercel",
+      "Netlify",
+      "Figma",
+      "Canva",
+      "Supabase",
+      "Digital Ocean",
       "React",
-      "JavaScript",
-      "Tailwind CSS",
-      "UI/UX",
-      "Responsive Design",
     ],
   },
 ];
@@ -202,6 +272,14 @@ export const education = [
 ];
 
 export const projects = [
+  {
+    id: 7,
+    title: "Ride Xpress",
+    description:
+      "A modern ride-hailing mobile app for quick and safe taxi bookings. Features location search, one-tap ride booking, recent destinations, and a clean user dashboard with home, rides, and trip history.",
+    image: rideXpress,
+    tags: ["React Native", "Mobile App", "UI/UX", "Firebase"],
+  },
   {
     id: 1,
     title: "ChatBot App - iGuide",

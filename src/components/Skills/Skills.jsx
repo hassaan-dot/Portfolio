@@ -41,7 +41,7 @@ const Skills = () => (
                   <img
                     src={skill.logo}
                     alt={`${skill.name} logo`}
-                    className="w-8 h-8 sm:w-10 sm:h-10 mb-1"
+                    className="w-8 h-8 sm:w-10 sm:h-10 mb-1 object-contain"
                   />
                   <span className="text-xs sm:text-sm text-gray-300 text-center">
                     {skill.name}
