@@ -262,24 +262,24 @@ export const projects = [
     image: textToHandwritten,
     tags: ["JavaScript", "React Native", "API", "CSS"],
   },
-  {
-    id: 7,
-    title: "GamesScout Marketplace - FYP",
-    description:
-      "Final year project as a Full-Stack Developer with group members, developing GAMESCOUT Marketplace, a web-based platform. Contributed to front-end and back-end development, including responsive UIs, core application logic, database and API integration, and secure, efficient performance.",
-    image: img1,
-    tags: ["Full Stack", "React", "Node.js", "Marketplace"],
-    github: "https://github.com/hassaan-dot/Game_Scout_MarketPlace_FYP",
-  },
-  {
-    id: 8,
-    title: "bGate Crypto Website",
-    description:
-      "Worked on the BGate website, implementing dynamic content management features, improving website functionality, and developing admin panel capabilities to manage website content.",
-    image: img2,
-    tags: ["Web Development", "Admin Panel", "CMS", "Backend Integration"],
-    webapp: "https://www.bgate.uk/",
-  },
+  // {
+  //   id: 7,
+  //   title: "GamesScout Marketplace - FYP",
+  //   description:
+  //     "Final year project as a Full-Stack Developer with group members, developing GAMESCOUT Marketplace, a web-based platform. Contributed to front-end and back-end development, including responsive UIs, core application logic, database and API integration, and secure, efficient performance.",
+  //   image: img1,
+  //   tags: ["Full Stack", "React", "Node.js", "Marketplace"],
+  //   github: "https://github.com/hassaan-dot/Game_Scout_MarketPlace_FYP",
+  // },
+  // {
+  //   id: 8,
+  //   title: "bGate Crypto Website",
+  //   description:
+  //     "Worked on the BGate website, implementing dynamic content management features, improving website functionality, and developing admin panel capabilities to manage website content.",
+  //   image: img2,
+  //   tags: ["Web Development", "Admin Panel", "CMS", "Backend Integration"],
+  //   webapp: "https://www.bgate.uk/",
+  // },
 ];
 
 export const achievements = [
