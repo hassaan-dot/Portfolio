@@ -5,7 +5,7 @@ const CompanyLogo = ({ src, alt, className = "" }) => (
   <img
     src={src}
     alt={alt}
-    className={`w-full h-full object-contain p-1 ${className}`}
+    className={`max-w-full max-h-full w-auto h-auto object-contain object-center ${className}`}
   />
 );
 
@@ -32,7 +32,7 @@ const Experience = () => {
             key={experience.id}
             className="relative mb-20 flex flex-col items-center sm:items-stretch sm:flex-row"
           >
-            <div className="absolute left-1/2 transform -translate-x-1/2 w-12 h-12 sm:w-16 sm:h-16 bg-white border-4 border-[#8245ec] rounded-full z-10 flex justify-center items-center overflow-hidden">
+            <div className="absolute left-1/2 -translate-x-1/2 w-12 h-12 sm:w-16 sm:h-16 bg-white border-4 border-[#8245ec] rounded-full z-10 flex items-center justify-center overflow-hidden p-1.5">
               <CompanyLogo src={experience.img} alt={experience.company} />
             </div>
 
