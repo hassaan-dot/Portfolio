@@ -18,7 +18,11 @@ const About = () => {
           <h3 className="text-xl sm:text-2xl md:text-3xl font-semibold mb-4 text-[#8245ec] leading-tight">
             <span className="text-white">I am a </span>
             <ReactTypingEffect
-              text={["App Developer", "Fullstack Developer", "Coder"]}
+              text={[
+                "Software Developer",
+                "Mobile App Developer",
+                "Full Stack Developer",
+              ]}
               speed={100}
               eraseSpeed={50}
               typingDelay={500}
@@ -30,16 +34,16 @@ const About = () => {
           </h3>
 
           <p className="text-gray-400 text-base md:text-lg leading-relaxed mt-4 mb-8">
-            Hi! I’m a mobile app developer passionate about building
-            cross-platform apps with React Native. I focus on creating smooth,
-            user-friendly experiences for both Android and iOS. I also work with
-            the MERN stack to build full solutions when needed. I love solving
-            real-world problems and exploring new tech along the way.
+            Greetings! I&apos;m Hassaan Khawaja, a passionate software developer
+            hailing from the vibrant landscapes of Pakistan. I build and
+            maintain mobile and web applications, focusing on clean user
+            experiences, reliable backends, and delivering complete solutions
+            from development to deployment.
           </p>
 
           <a
-            href="/Hassaan Khawaja.pdf"
-            download="Hassaan_Khawaja.pdf"
+            href="/Khawaja_Ahmed_Hassaan_Rasheed.pdf"
+            download="Khawaja_Ahmed_Hassaan_Rasheed.pdf"
             className="inline-block text-white py-3 px-8 rounded-full mt-5 text-lg font-bold transition duration-300 transform hover:scale-105"
             style={{
               background: "linear-gradient(90deg, #8245ec, #a855f7)",
@@ -62,7 +66,7 @@ const About = () => {
           >
             <img
               src={hassaanImg} // Update with your actual image path
-              alt="Aakash Karki"
+              alt="Hassaan Khawaja"
               className="w-full h-full rounded-full object-cover drop-shadow-[0_10px_20px_rgba(130,69,236,0.5)]"
             />
           </Tilt>

@@ -114,7 +114,7 @@ const Work = () => {
                 {selectedProject.description}
               </p>
 
-              <div className="flex flex-wrap gap-2 pb-2">
+              <div className="flex flex-wrap gap-2 pb-4">
                 {selectedProject.tags.map((tag, index) => (
                   <span
                     key={index}
@@ -124,6 +124,31 @@ const Work = () => {
                   </span>
                 ))}
               </div>
+
+              {(selectedProject.github || selectedProject.webapp) && (
+                <div className="flex flex-wrap gap-3">
+                  {selectedProject.github && (
+                    <a
+                      href={selectedProject.github}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="rounded-xl bg-gray-800 px-4 py-2 text-sm font-semibold text-gray-200 transition-colors hover:bg-purple-800"
+                    >
+                      View Code
+                    </a>
+                  )}
+                  {selectedProject.webapp && (
+                    <a
+                      href={selectedProject.webapp}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="rounded-xl bg-purple-600 px-4 py-2 text-sm font-semibold text-white transition-colors hover:bg-purple-700"
+                    >
+                      View Live
+                    </a>
+                  )}
+                </div>
+              )}
             </div>
           </div>
         </div>
