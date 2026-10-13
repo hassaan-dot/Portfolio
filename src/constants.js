@@ -63,7 +63,7 @@ import CmsPortal from "./assets/project_logo/CmsPortal.png";
 import GatherGram from "./assets/project_logo/GatherGram.png";
 import textToHandwritten from "./assets/project_logo/textToHandwritten.png";
 import racingApp from "./assets/project_logo/RacingApp.png";
-import rideXpress from "./assets/project_logo/RideXpress.png";
+// import rideXpress from "./assets/project_logo/RideXpress.png";
 
 //Achievements Section Logo's
 import ach1 from "./assets/achievements_logo/1.png";
@@ -272,14 +272,14 @@ export const education = [
 ];
 
 export const projects = [
-  {
-    id: 7,
-    title: "Ride Xpress",
-    description:
-      "A modern ride-hailing mobile app for quick and safe taxi bookings. Features location search, one-tap ride booking, recent destinations, and a clean user dashboard with home, rides, and trip history.",
-    image: rideXpress,
-    tags: ["React Native", "Mobile App", "UI/UX", "Firebase"],
-  },
+  // {
+  //   id: 7,
+  //   title: "Ride Xpress",
+  //   description:
+  //     "A modern ride-hailing mobile app for quick and safe taxi bookings. Features location search, one-tap ride booking, recent destinations, and a clean user dashboard with home, rides, and trip history.",
+  //   image: rideXpress,
+  //   tags: ["React Native", "Mobile App", "UI/UX", "Firebase"],
+  // },
   {
     id: 1,
     title: "ChatBot App - iGuide",
